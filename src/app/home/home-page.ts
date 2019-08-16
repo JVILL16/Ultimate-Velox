@@ -5,14 +5,8 @@ import { OnInit, Component } from '@angular/core';
     templateUrl: './home-page.html',
     styleUrls: ['./home-page.scss']
   })
-export class HomeComponent implements OnInit{
-
+export class HomeComponent{
+    title = 'home page';
 
     
-    ngOnInit(): void {
-        console.log("clicked");
-
-        throw new Error("Method not implemented.");
-    }
-
 }

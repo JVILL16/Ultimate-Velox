@@ -1,12 +1,27 @@
-#header {
-    background: black;
+header {
+    background: green;
 }
 
-#nav{
+nav{
     background: blue;
+    width: 30%;
+    float:left;
 }
 
-#footer{
+article{
+    background: yellow;
+    float:left;
+    width:70%;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+footer{
     background: red;
 }
+
 
