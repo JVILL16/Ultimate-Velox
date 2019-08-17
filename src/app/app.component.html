@@ -1,9 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <nav class="navbar navbar-dark bg-dark">
-  <img width="40" alt="Velox Icon" src="assets/velox-icon-no-bg.png">
-  <div class="container">
-      <a class="navbar-brand active" routerLink="/" routerLinkActive="active">Velox</a>
-  </div>
+
+  <a class="navbar-brand active" routerLink="/" routerLinkActive="active"><img width="30" alt="Velox Icon" src="assets/velox-icon-no-bg.png">Velox</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
     aria-expanded="false" aria-label="Toggle navigation">
@@ -11,46 +9,42 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarText">
+
     <ul class="navbar-nav mr-auto">
-      <div class="row">
+    <div class="row">
 
-        <div class="col-lg-2 col-md-3">
-          <li class="nav-item active">
-            <a class="nav-link" href="https://angular.io/cli">CLI Documentation</a>
-          </li>
-        </div>
-
-        <div class="col-lg-2 col-md-3">
-          <li class="nav-item active">
-            <a class="nav-link" href="https://blog.angular.io/">Angular blog</a>
-          </li>
-        </div>
-
-        <div class="col-lg-2 col-md-3">
-          <li class="nav-item active">
-            <a class="nav-link" routerLink="/home-page" routerLinkActive="active">Home Page</a>
-          </li>
-        </div>
-
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
-          </form>
-
+      <div class="col">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://angular.io/cli">CLI Documentation</a>
+        </li>
       </div>
-      
-         
-       
+
+      <div class="col">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://blog.angular.io/">Angular blog</a>
+        </li>
+      </div>
+
+      <div class="col">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/home-page" routerLinkActive="active">Home Page</a>
+        </li>
+      </div>
+
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+    </div>
     </ul>
-
-
 
   </div>
 </nav>
 
 <div style="text-align:center">
   <h1>
-    Welcome to {{ title }}!
+    UTSA Velox Ultimate
   </h1>
   <img width="500" alt="Velox Header" src="assets/velox-header.PNG">
 </div>
