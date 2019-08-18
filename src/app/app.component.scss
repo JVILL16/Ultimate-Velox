@@ -1,26 +1,19 @@
 .nav-item{
-   /*    margin-left: 20px;
-    //margin-right: 40px; 
-    border:2px solid rgb(242, 255, 2);
-    width:10%; */
-    //width:10%;
-    margin-left: 10px;
-    
+    margin-left: 10px;  
 }
-
 
 #logo{
     margin-right:0;
 }
 
-
 .container{
     width:35%;
-
 }
 
 .title{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    
 }
 
 #teamName{
@@ -31,12 +24,30 @@
     font-stretch: wider;
 }
 
-#twitter-icon{
-    float:right;
-    display: right;
-} 
-
 .soc-media{
    // float:left;
     margin-left: 65%;
+}
+
+.sec-2{
+    background: yellow;
+    float:left;
+    width:70%;
+}
+
+.sec-1{
+    background: blue;
+    width: 30%;
+    float:left;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+footer{
+    background: red;
+    margin-top:10000px;
 }
