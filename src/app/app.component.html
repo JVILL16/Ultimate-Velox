@@ -1,18 +1,42 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<nav class="navbar navbar-dark bg-dark">
+<!-- 
+  
+  Navigation Bar 
 
-  <a class="navbar-brand active" id="teamName" routerLink="/" routerLinkActive="active"><img width="30" alt="Velox Icon"
-      src="assets/velox-icon-no-bg.png">&nbsp;&nbsp;Velox</a>
+-->
+<nav class="navbar navbar-dark bg-dark flex-row">
+
+  <a class="navbar-brand active" id="logo" routerLink="/" routerLinkActive="active"><img width="30" alt="Velox Icon"
+      src="assets/velox-icon-no-bg.png">&nbsp;&nbsp;|</a>
+
+  <div class="col">
+    <span id="teamName">Velox</span>
+  </div>
+
+  <div class="col soc-media">
+    <a class="fa-stack" href="https://twitter.com/UTSAulti">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+    </a>&nbsp;
+    <a class="fa-stack" href="https://www.instagram.com/utsaultimate/">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+      <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+    </a>&nbsp;
+    <a class="fa-stack" href="https://www.facebook.com/groups/utsaultimate/">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+    </a>&nbsp;
+    <a class="fa-stack active" href="https://www.snapchat.com/add/veloxultimate/">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+      <i class="fa fa-snapchat fa-stack-1x fa-inverse"></i>
+    </a>
+
+  </div>
 
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+  <button class="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
     aria-expanded="false" aria-label="Toggle navigation">
-    <span class="fa-stack">
-        <i class="fa fa-square-o fa-stack-2x"></i>
-        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-    </span>
     <span class="navbar-toggler-icon"></span>
-    
+
   </button>
 
 
@@ -22,19 +46,16 @@
       <div class="row">
 
         <li class="nav-item active">
-          <a class="nav-link text-center" href="https://angular.io/cli">CLI Documentation</a>
+          <a class="nav-link text-center text-nowrap" routerLink="/home-page" routerLinkActive="active"> Home </a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link text-center text-nowrap" href="">Contact Us </a>
         </li>
 
 
-
         <li class="nav-item active">
-          <a class="nav-link text-center" href="https://blog.angular.io/">Angular blog</a>
-        </li>
-
-
-
-        <li class="nav-item active">
-          <a class="nav-link text-center" routerLink="/home-page" routerLinkActive="active">Home Page</a>
+          <a class="nav-link text-center text-nowrap" href="">About Us </a>
         </li>
 
 
@@ -50,10 +71,41 @@
 </nav>
 
 <div style="text-align:center">
-  <h1>
+  <h1 class="title">
     Welcome to Velox Ultimate
   </h1>
-  <img width="500" alt="Velox Header" src="assets/velox-header.PNG">
+  <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img width="500" src="assets/carousel-pics/velox-header.PNG" alt="header 1">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/carousel-pics/velox-header-2.jpg"  alt="header 2">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/carousel-pics/velox-header-3.jpg"  alt="header 3">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/carousel-pics/velox-header-4.jpg"  alt="header 4">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/carousel-pics/velox-header-5.jpg"  alt="header 5">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/carousel-pics/velox-header-6.jpg"  alt="header 6">
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+    
+  </div>
 </div>
 
 
