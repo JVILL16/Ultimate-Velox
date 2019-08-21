@@ -1,3 +1,8 @@
+@font-face { 
+    font-family: Daily-Q; 
+    src: url('src/assets/fonts/daily-quantum/Daily Quantum.ttf'); 
+} 
+
 .nav-item{
     margin-left: 10px;  
 }
@@ -6,15 +11,40 @@
     margin-right:0;
 }
 
-.container{
-    width:35%;
+.carousel-item 
+{
+    img{
+        width: 100%
+    }
+
+} 
+
+.title-cap{
+    font-family: Daily-Q;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+   // background-color: #9c9c9c;
+    background-position: 50%;
+    background-image: url('src/assets/thumbnail-background.png');
+}
+
+.card-head{
+    background-size: cover;
+    background-position: 50%;
+    background-image: url('src/assets/thumbnail-background.png');
 }
 
 .title{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    
+
+    font-family: Daily-Q;
+    color: #eba626;
+    font-size: 50px;
+    //background-color: #9c9c9c;
+    //background-position: cover;
+
 }
+
 
 #teamName{
     font-weight: bold;
@@ -26,28 +56,11 @@
 
 .soc-media{
    // float:left;
-    margin-left: 65%;
+    margin-left: 60%;
 }
 
-.sec-2{
-    background: yellow;
-    float:left;
-    width:70%;
-}
-
-.sec-1{
-    background: blue;
-    width: 30%;
-    float:left;
-}
-
-section:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
 footer{
-    background: red;
-    margin-top:10000px;
+    height: 10rem;
+    margin-top:1000px;
 }
