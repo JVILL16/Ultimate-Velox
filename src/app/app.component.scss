@@ -19,6 +19,7 @@
 
 } 
 
+
 .title-cap{
     font-family: Daily-Q;
     color: white;
@@ -62,7 +63,29 @@
 }
 
 
-footer{
+.home-footer{
     height: 10rem;
-    margin-top:1000px;
+    margin-top:50px;
+}
+
+
+.btn-success { 
+    border-color: rgb(248, 155, 79); 
+    background-color: rgb(248, 155, 79); 
+    //color:rgb(251, 249, 249);
+}
+
+.btn-success:hover { 
+    border-color: rgb(115, 191, 253); 
+    background-color: rgb(115, 191, 253); 
+}
+.btn-info { 
+    border-color: rgb(248, 155, 79); 
+    background-color: rgb(248, 155, 79); 
+    //color:rgb(251, 249, 249);
+}
+
+.btn-info:hover { 
+    border-color: rgb(115, 191, 253); 
+    background-color: rgb(115, 191, 253); 
 }

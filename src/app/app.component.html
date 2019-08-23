@@ -79,7 +79,7 @@
 
 <!--
 
-  
+  page
 
 -->
 
@@ -92,79 +92,108 @@
         sidebar for "Meet the Captains"
       
       -->
-      <div class="list-group-item text-center title-cap">
-        Meet Our Captains
+      <div class="card">
+        <h5 class="card-header text-center title-cap">Memeber?</h5>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Username:</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Username">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password:</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group text-center">
+              <a class="text-nowrap" routerLink="" routerLinkActive="active">New Member?</a>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+          </form>
+        </div>
       </div>
 
-      <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
 
-        <div class="carousel-inner">
+      <div class="card" style="margin-top:20px">
+        <h5 class="card-header text-center title-cap">
+          Meet Our Captains
+        </h5>
 
-          <div class="carousel-item active">
-            <div class="card">
-              <img src="assets/captains/harry.PNG" class="card-img-top cap-pics" alt="prez">
-              <div class="card-body">
-                <h5 class="card-title text-center">Harry</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Assists</li>
-                <li class="list-group-item">Scores</li>
-                <li class="list-group-item">Position</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x" style="color:rgb(4, 178, 231)"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </a>
-                <a href="#" class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x" style="color:rgb(241, 155, 129)"></i>
-                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                </a>
+
+        <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
+
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="card">
+                <img src="assets/captains/harry.PNG" class="card-img-top cap-pics" alt="prez">
+                <div class="card-body">
+                  <h5 class="card-title text-center title">Harry</h5>
+                  <p class="card-text" style="text-align: center">Harry been playing ultimate for 4 years and has been
+                    making BIG moves this off season to make sure that he and this team are ready to surprise everyone
+                    this next year. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Position</li>
+                  <li class="list-group-item">Scores</li>
+                  <li class="list-group-item">Handler</li>
+                </ul>
+                <div class="card-body text-center">
+                  <a href="#" class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x" style="color:rgb(4, 178, 231)"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </a>
+                  <a href="#" class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x" style="color:rgb(241, 155, 129)"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="carousel-item">
-            <div class="card">
-              <img src="assets/captains/tyler.PNG" class="card-img-top cap-pics" alt="vice-prez">
-              <div class="card-body">
-                <h5 class="card-title text-center">Tyler</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Assists</li>
-                <li class="list-group-item">Scores</li>
-                <li class="list-group-item">Position</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x" style="color:rgb(4, 178, 231)"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </a>
-                <a href="#" class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x" style="color:rgb(241, 155, 129)"></i>
-                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                </a>
+            <div class="carousel-item">
+              <div class="card">
+                <img src="assets/captains/tyler.PNG" class="card-img-top cap-pics" alt="vice-prez">
+                <div class="card-body">
+                  <h5 class="card-title text-center title">Tyler</h5>
+                  <p class="card-text" style="text-align: center">Tyler has lived up to the title in all parts of his
+                    game whether it be in his crisp under cuts, his killer deep cuts or his precise continue throws!
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Position</li>
+                  <li class="list-group-item">Scores</li>
+                  <li class="list-group-item">Cutter</li>
+                </ul>
+                <div class="card-body text-center">
+                  <a href="#" class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x" style="color:rgb(4, 178, 231)"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </a>
+                  <a href="#" class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x" style="color:rgb(241, 155, 129)"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </a>
+                </div>
               </div>
             </div>
+
           </div>
+
+          <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
 
         </div>
-
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-
       </div>
-      
+
+
 
     </div>
 
@@ -253,19 +282,27 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card">
+          <div class="card" style="margin-bottom:20px">
             <div class="card-header title-cap">
-              About Us
+              Ultimate Frsibee Culture
             </div>
             <div class="card-body">
-              <h5 class="card-title">Who Are We?</h5>
-              <p class="card-text">Velox Club Ultimate is the competitive men’s Ultimate Frisbee Team for UTSA. We play
-                under USA Ultimate, the governing body of Ultimate Frisbee in the United States. It's tons of fun! It's
-                one of the fastest growing team sports in the country because it offers challenges to players at all
-                skill levels.</p>
+              <h5 class="card-title">What is Ultimate Frisbee?</h5>
+              <p class="card-text">Ultimate was developed in 1968 by a group of students at Columbia High School in Maplewood, N.J. Although ultimate resembles many traditional sports in its athletic requirements, it is unlike most sports due to its focus on self-officiating, even at the highest levels of competition. This concept, called Spirit of the Game, is integrated into the basic philosophy of the sport, written into the rules, and practiced at all levels of the game from local leagues to the World Games.</p>
               <a href="#" class="btn btn-info">Learn More&nbsp;
                 <i class="fa fa-chevron-right" style="font-size:13px;"></i>
               </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header title-cap">
+              Quote
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-2">
+                <p>Eating ass and tossing plastic since 2011</p>
+                <footer class="blockquote-footer">A553at3r69 <cite title="Source Title">Velox Ultimate</cite></footer>
+              </blockquote>
             </div>
           </div>
         </div>
@@ -311,8 +348,26 @@
 
 
 
-  <footer class="bg-dark">
+<footer class="bg-dark home-footer">
+  <div class="row">
+    <div class="col-md-3">
 
-  </footer>
+    </div>
+    <div class="col-md-3">
 
-  <router-outlet></router-outlet>
+    </div>
+    <div class="col-md-3">
+
+    </div>
+    <div class="col-md-3">
+
+    </div>
+
+  </div>
+  <div class="row">
+
+  </div>
+
+</footer>
+
+<router-outlet></router-outlet>
