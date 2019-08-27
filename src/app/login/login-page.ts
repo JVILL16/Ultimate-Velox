@@ -2,11 +2,11 @@ import { OnInit, Component } from '@angular/core';
 
 @Component({
     selector: 'home-page',
-    templateUrl: './home-page.html',
-    styleUrls: ['./home-page.scss']
+    templateUrl: './login-page.html',
+    styleUrls: ['./login-page.scss']
   })
 export class HomeComponent{
-    title = 'home page';
+    title = 'Login page';
 
     
 }
