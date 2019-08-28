@@ -50,20 +50,22 @@
     ],
     "no-consecutive-blank-lines": false,
 
-    //did it just cause for now
-     /* "no-console": [
+    
+    "no-console": [
       true,
       "debug",
       "info",
       "time",
       "timeEnd",
       "trace"
-    ],  */
+    ],  
     "no-empty": false,
-    "no-inferrable-types": [
+
+    /* "no-inferrable-types": [
       true,
       "ignore-params"
-    ],
+    ], */
+    
     "no-non-null-assertion": true,
     "no-redundant-jsdoc": true,
     "no-switch-case-fall-through": true,
@@ -105,8 +107,12 @@
 
     //taking away white space errors
     "no-trailing-whitespace": false,
-    "whitespace": false
+    "whitespace": false,
     
+    //taking off whitespace of typedef
+    "typedef-whitespace": false,
+
+    "no-inferrable-types": false
     
   },
   "rulesDirectory": [
