@@ -1,12 +1,12 @@
-import { OnInit, Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-    selector: 'home-page',
+    selector: 'login-page',
     templateUrl: './login-page.html',
     styleUrls: ['./login-page.scss']
   })
-export class HomeComponent{
+
+export class HomeComponent {
     title = 'Login page';
 
-    
 }
