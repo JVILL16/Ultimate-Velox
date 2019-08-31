@@ -112,7 +112,9 @@
     //taking off whitespace of typedef
     "typedef-whitespace": false,
 
-    "no-inferrable-types": false
+    "no-inferrable-types": false,
+
+    "comment-format": false
     
   },
   "rulesDirectory": [
