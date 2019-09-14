@@ -114,7 +114,8 @@
 
     "no-inferrable-types": false,
 
-    "comment-format": false
+    "comment-format": false,
+    "no-unused-variable": false
     
   },
   "rulesDirectory": [

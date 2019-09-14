@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class AppComponent implements OnInit {
   
   title = 'utsa-velox';
+  public loading: boolean = true;
   
   constructor(private router:Router){}
 
@@ -17,6 +18,14 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
+    if(this.router.navigate(['']) !== undefined){
+        this.loading = true;
+    }else{
+      this.loading = false;
+    }
+    
+    
     
     throw new Error("Method not implemented.");
   }
