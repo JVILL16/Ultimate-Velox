@@ -14,12 +14,12 @@ import { LoadingComponent } from './components/loading/loading.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LoadingComponent,
     HomeComponent,
     LoginComponent,
     AboutComponent,
     NavbarComponent,
-    FooterComponent  
+    FooterComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,

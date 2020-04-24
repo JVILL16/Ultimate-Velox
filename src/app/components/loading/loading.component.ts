@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
     selector: 'app-loading',
@@ -6,12 +6,16 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./loading.component.scss']
   })
 
-export class LoadingComponent implements OnInit{
+export class LoadingComponent implements OnInit, OnDestroy {
     
-    loading: boolean = true;
+    loading: boolean = false;
+
+    ngOnDestroy(): void {
+        throw new Error("Method not implemented.");
+    }   
 
     ngOnInit(): void {
-        this.loading = true;
+      
         throw new Error("Method not implemented.");
     }
 
